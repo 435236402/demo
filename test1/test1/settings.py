@@ -51,7 +51,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
 )
-
+ 
 ROOT_URLCONF = 'test1.urls'
 
 TEMPLATES = [
@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'test1',
         'USER': 'root',
         'PASSWORD': 'mysql',
-        'HOST': '127.0.0.1',
+        'HOST': '192.168.231.134',
         'PORT': 3306
     }
 }

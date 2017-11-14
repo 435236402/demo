@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'untitled2.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Bookdb',
+        'NAME': 'test1',
         'USER': 'root',
         'PASSWORD': 'mysql',
-        'HOST': 'localhost',
+        'HOST': '192.168.231.134',
         'PORT': 3306,
     }
 }
